@@ -40,7 +40,7 @@ module.exports = {
         use: [
           isProduction && {
             loader: 'babel-loader',
-            options: { plugins: ['react-hot-loader/babel'] }
+            options: {  }
           },
           'ts-loader'
         ].filter(Boolean)
